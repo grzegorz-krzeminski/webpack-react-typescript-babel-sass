@@ -3,7 +3,7 @@ Quick start for creating Typescript React app with Weback and Babel. It uses Sas
 
 ## Instalation 
 
-1. Clone repo: `https://github.com/gieerzetka/webpack-react-typescript-babel-sass.git`
+1. Clone repo: `git clone https://github.com/gieerzetka/webpack-react-typescript-babel-sass.git <YOUR_PROJECT_NAME>`
 2. Install dependencies: `yarn install`
 
 ## Usage
