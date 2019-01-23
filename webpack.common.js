@@ -1,12 +1,10 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const path = require('path');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 const htmlPlugin = new HtmlWebPackPlugin({
 	template: "./src/html/index.html",
 	filename: "./index.html"
 });
-const cleanWebppack = new CleanWebpackPlugin(['dist']);
 
 module.exports = {
 	entry:  {
@@ -42,7 +40,6 @@ module.exports = {
 		]
 	},
 	plugins: [
-		cleanWebppack,
 		htmlPlugin
 	]
 };
